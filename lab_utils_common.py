@@ -15,9 +15,9 @@ from ipywidgets import Output
 
 np.set_printoptions(precision=2)
 
-dlc = dict(dlblue = '#0096ff', dlorange = '#FF9300', dldarkred='#C00000', dlmagenta='#FF40FF', dlpurple='#7030A0')
-dlblue = '#0096ff'; dlorange = '#FF9300'; dldarkred='#C00000'; dlmagenta='#FF40FF'; dlpurple='#7030A0'
-dlcolors = [dlblue, dlorange, dldarkred, dlmagenta, dlpurple]
+dlc = dict(dlblue='#0096ff', dlorange='#FF9300', dldarkred='#C00000', dlmagenta='#FF40FF', dlpurple='#7030A0', dldarkblue='#00008B')
+dlblue = '#0096ff'; dlorange = '#FF9300'; dldarkred = '#C00000'; dlmagenta = '#FF40FF'; dlpurple = '#7030A0'; dldarkblue = '#00008B';
+dlcolors = [dlblue, dlorange, dldarkred, dlmagenta, dlpurple, dldarkblue]
 
 
 def sigmoid(z):
